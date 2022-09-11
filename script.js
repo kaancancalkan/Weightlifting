@@ -50,10 +50,10 @@ $(function () {
         seekT, seekLoc, seekBarPos, cM, ctMinutes, ctSeconds, curMinutes, curSeconds, durMinutes, durSeconds, playProgress, bTime, nTime = 0,
         buffInterval = null,
         tFlag = false,
-        albums = [' La belle étoile', 'Gnossienne'],
-        trackNames = ['Andrea Lindsay - Demain Des Laube', 'Erik Satie - Gnossienne No.1 ' ],
+        albums = [' Sempiternal', 'Single'],
+        trackNames = ['Bring Me The Horizon - Can You Feel My Heart', 'Tevvez Zeus ' ],
         albumArtworks = ['_1', '_2'],
-        trackUrl = ['https://raw.githubusercontent.com/kaancancalkan/End-For-World/main/Songs/Andrea%20Lindsay%20-%20%20Demain%20Des%20Laube.mp3', 'https://raw.githubusercontent.com/kaancancalkan/End-For-World/main/Songs/Erik%20Satie%20Gnossienne%20No%201.mp3'],
+        trackUrl = ['https://github.com/kaancancalkan/Weightlifting/blob/main/Songs/Bring%20Me%20The%20Horizon%20-%20Can%20You%20Feel%20My%20Heart.mp3?raw=true', 'https://github.com/kaancancalkan/Weightlifting/blob/main/Songs/Tevvez%20-%20ZEUS.mp3?raw=true'],
         playPreviousTrackButton = $('#play-previous'),
         playNextTrackButton = $('#play-next'),
         currIndex = -1;
